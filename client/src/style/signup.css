@@ -1,0 +1,76 @@
+
+.Sign {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 80vh;
+}
+
+.Sign h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  letter-spacing: 2px;
+}
+
+.Sign p {
+  color: red;
+  margin-bottom: 10px;
+}
+
+.Sign form {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  border: 1px solid #ccc;
+  padding: 20px;
+  height: 90%;
+  border-top-right-radius: 100px;
+}
+
+.Sign input {
+  padding: 10px;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  border-radius: 4px;
+  outline-width: 0;
+  font-size: 17px;
+  transition: all 0.3s ease-in-out;
+}
+
+.Sign input:focus::placeholder{
+  transition: 0.3s ease-in-out;
+  font-size: 13px;
+  color: #0056b3;
+}
+
+.Sign button {
+  padding: 15px 40px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.Sign button:hover {
+  background-color: #0056b3;
+}
+
+.Sign h3{
+  color: #666;
+}
+
+.Sign a{
+  text-decoration: none;
+  color: rgb(255, 166, 0);
+  font-size: 23px;
+  transition: all 0.3s ease-in-out;
+} 
+
+.Sign a:hover{
+  color: #007bff;
+}

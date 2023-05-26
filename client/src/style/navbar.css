@@ -1,0 +1,63 @@
+/* Navbar container */
+
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Bitter&family=Mukta&family=Roboto:wght@500&family=Saira+Condensed:wght@300&family=Secular+One&display=swap');
+
+
+.Navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  color: #333;
+}
+
+/* Logo */
+.logo {
+  font-family: 'Roboto';
+  font-size: 24px;
+}
+
+/* List */
+.list {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.list li {
+  margin-right: 10px;
+}
+
+.list li a {
+  font-family: 'Bitter';
+  font-size: 18px;
+  color: #333;
+  margin-right: 40px;
+  text-decoration: none;
+  transition: 0.8;
+}
+
+.list li a:hover {
+  text-decoration: underline;
+  color: #222;
+ 
+}
+
+/* Side icons */
+.side {
+  display: flex;
+  align-items: center;
+}
+
+.side a {
+  font-size: 35px;
+  margin-right: 15px;
+  color: #333;
+}
+
+.side i {
+  font-size: 25px;
+  margin-right: 10px;
+  color: #222;
+}

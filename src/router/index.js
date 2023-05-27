@@ -6,7 +6,4 @@ const router = express.Router()
 router.use(userRouter)
 router.use(productRouter)
 router.use(cartRouter)
-router.get('*', (req, res) => {
-    res.sendFile('../../public/index.html')
-})
 export default router

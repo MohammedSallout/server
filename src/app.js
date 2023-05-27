@@ -13,8 +13,4 @@ app.use(express.urlencoded({ extended: false }))
 app.use(express.static('public'))
 app.use('/api', router)
 
-app.get('*', (req, res) => {
-    res.sendFile('../public/index.html')
-})
-
 export default app

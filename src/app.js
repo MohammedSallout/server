@@ -16,7 +16,7 @@ app.use(express.urlencoded({ extended: false }))
 app.use('/api/v1',router);
 
 app.get('*', (req, res) => {
-    res.sendFile('../client/public/index.html')
+    res.sendFile('../public/index.html')
 })
 
 export default app

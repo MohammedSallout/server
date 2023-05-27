@@ -1,4 +1,3 @@
-import path from 'path'
 import router from './router/index.js'
 import express from 'express'
 import cookieParser from 'cookie-parser'
@@ -15,7 +14,7 @@ app.use(express.static('public'))
 app.use('/api', router)
 
 app.get('*', (req, res) => {
-    res.sendFile(path.join(__dirname, '../public/index.html'))
+    res.sendFile('../public/index.html')
 })
 
 export default app
